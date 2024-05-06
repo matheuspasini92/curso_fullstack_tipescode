@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+}
+
+hr{
+    background-color: white;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: blue;
+    border-width: 5px;
+    width: 20%;    
+}
+
+
+h1{
+    color: blueviolet;
+}
+
+h3{
+    color: blue;
+}
+
+
+table{
+    border-style: solid;
+    border-color:brown;
+}
