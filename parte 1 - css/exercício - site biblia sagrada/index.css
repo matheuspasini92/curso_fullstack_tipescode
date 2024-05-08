@@ -1,0 +1,24 @@
+/*====================SEÇÃO DE TAGS====================*/
+
+
+
+/*====================SEÇÃO DE CLASSES====================*/
+
+.biblia {
+    background-color: aqua;
+    width: 15%;
+}
+
+.cruz{
+    background-color: cornflowerblue;
+}
+
+/*====================SEÇÃO DE IDs====================*/
+
+#cabeçalho{
+    color: rgb(0, 38, 255);    
+}
+
+#cabeçalho:hover{
+    color:black;
+}
