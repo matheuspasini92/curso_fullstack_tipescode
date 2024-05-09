@@ -1,0 +1,42 @@
+/*====================SEÇÃO DE TAGS====================*/
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #427D9D;
+}
+
+h1{
+    margin-top: 0;
+}
+
+/*====================SEÇÃO DE CLASSES====================*/
+
+.box1{
+    background-color: #427D9D; 
+    width: 140px;
+    height: 140px; 
+    border-style: solid;
+    border-width: 10px; 
+    padding: 20px; 
+}
+
+.box2{
+    background-color: red;
+    width: 160px;
+    height: 160px;
+    border-style: solid;
+    border-width: 20px;
+    margin-left: 200px;
+}
+
+.box3{
+    background-color: yellow;
+    width: 180px;
+    height: 180px;
+    border-style: solid;
+    border-width: 10px;
+    margin-left: 400px; 
+}
+
