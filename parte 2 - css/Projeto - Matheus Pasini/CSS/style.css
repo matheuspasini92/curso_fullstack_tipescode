@@ -2,58 +2,95 @@
 body{
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather',serif;
+    
 }
 
 h1{
     margin: 0 auto;
+    font-size: 5.625rem;
 }
 
 h2, h3{
     font-family: 'Montserrat', sans-serif;
+    color: #11999e;
 }
 
 /*====================SEÇÃO DE CLASSES====================*/
 
-.nome{
-    font-family: 'Sacramento', cursive;
-    font-size: 330%; 
-    color: white;  
-    
-}
-
-.subnome{
-    text-decoration: underline;
-    font-family: 'Merriweather', serif;
-    font-size: 155%;
-    color: white;  
-}
-
 .top-container{
     position: relative;
-    padding: 5%;
-    background-image: url(../mídia/fundo-header.png);
-    background-size: auto;   
-    background-repeat: no-repeat;
-}
-
-.logo{
-    width: 40%;
-    height: 60%;
+    padding-top:3%;
+    background-color: rgb(59, 57, 85);
+      
 }
 
 .circuito-cima{
     position:absolute;
     top: 1%;
     right: 1%;
-    width: 40%;
+    width: 18%;   
+    
 }
 
 .circuito-baixo{
     position:absolute;
-    top: 30%;
+    top: 38%;
     left: 1%;
-    width: 40%;
+    width: 18%;
 }
+
+.nome{
+    font-family: 'Sacramento', cursive;
+    font-size: 330%; 
+    color: #66bfbf; 
+    position: relative; 
+}
+
+.subnome{
+    text-decoration: underline;
+    line-height: 4;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    font-size: 155%;
+    position: relative;  
+    color: #66bfbf;  
+}
+
+.logo{
+    padding-top:2%;
+    padding-bottom: 2%;
+    width: 17%;
+    height: 50%;    
+}
+
+.skill-row{ 
+    position: relative;
+    display: inline-block;   
+    line-height: 2;
+    text-align: left;
+}
+
+.code-img{
+    width: 35%;
+    height: 70%;    
+    float:left;
+    margin-right: 1.875%;
+    margin-bottom: 1.875%;
+    
+}
+
+.proativo{
+    width: 30%;
+    height: 50%;    
+    float: right;
+    margin-right: 1.875%;
+    
+}
+ 
+
+
+
 
 
 
