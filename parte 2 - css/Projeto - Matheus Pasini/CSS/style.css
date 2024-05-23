@@ -3,9 +3,9 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather',serif;
-    
+    color: #40514e;
 }
-
+ 
 h1{
     margin: 0 auto;
     font-size: 5.625rem;
@@ -14,6 +14,28 @@ h1{
 h2, h3{
     font-family: 'Montserrat', sans-serif;
     color: #11999e;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+a{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6fe;
 }
 
 /*====================SEÇÃO DE CLASSES====================*/
@@ -45,6 +67,7 @@ h2, h3{
     font-size: 330%; 
     color: #66bfbf; 
     position: relative; 
+    margin-bottom: 10px;
 }
 
 .subnome{
@@ -64,20 +87,23 @@ h2, h3{
     height: 50%;    
 }
 
+.middle-container{
+    margin: 100px auto;
+}
+
 .skill-row{ 
     position: relative;
-    display: inline-block;   
-    line-height: 2;
+    display: inline-block;       
     text-align: left;
 }
 
 .code-img{
     width: 35%;
-    height: 70%;    
-    float:left;
-    margin-right: 1.875%;
-    margin-bottom: 1.875%;
-    
+    height: 70%;
+    float: left;
+    margin-right: 2.875%;
+    margin-bottom: 2.875%;
+    margin-top: 1.875%;    
 }
 
 .proativo{
@@ -87,7 +113,49 @@ h2, h3{
     margin-right: 1.875%;
     
 }
- 
+
+.mensagem{    
+    margin: 40px auto 60px;
+    text-align: center;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -moz-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -ms-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -o-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: linear-gradient(to bottom, #11cdd4, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+.bottom-container{
+    background-color: #394867;
+    padding: 50px 0 20px;
+    color: white;
+}
+
+.copyright{
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
 
 
 
